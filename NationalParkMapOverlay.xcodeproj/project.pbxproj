@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,11 +13,13 @@
 		22A8E996259D72D700991200 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A8E995259D72D700991200 /* Preview Assets.xcassets */; };
 		22A8E99F259D7DEF00991200 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8E99E259D7DEF00991200 /* MapView.swift */; };
 		22A8E9A3259D801800991200 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A8E9A2259D801800991200 /* CoreLocation.framework */; };
-		22D594DD25A419D1003DD2D5 /* ParkAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D594DC25A419D1003DD2D5 /* ParkAnnotationView.swift */; };
-		22D594E125A419E1003DD2D5 /* ParkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D594E025A419E1003DD2D5 /* ParkAnnotation.swift */; };
+		22D594E625A422E4003DD2D5 /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D594E525A422E4003DD2D5 /* Park.swift */; };
+		A3A263F8E87F04C632C2464A /* Pods_NationalParkMapOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA71D9830846DDCC923166 /* Pods_NationalParkMapOverlay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1096A3B1AD8AA023A1DF8739 /* Pods-NationalParkMapOverlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NationalParkMapOverlay.debug.xcconfig"; path = "Target Support Files/Pods-NationalParkMapOverlay/Pods-NationalParkMapOverlay.debug.xcconfig"; sourceTree = "<group>"; };
+		18FA71D9830846DDCC923166 /* Pods_NationalParkMapOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NationalParkMapOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A8E98B259D72D600991200 /* NationalParkMapOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NationalParkMapOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A8E98E259D72D600991200 /* NationalParkMapOverlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalParkMapOverlayApp.swift; sourceTree = "<group>"; };
 		22A8E990259D72D600991200 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,8 +28,8 @@
 		22A8E997259D72D700991200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22A8E99E259D7DEF00991200 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		22A8E9A2259D801800991200 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		22D594DC25A419D1003DD2D5 /* ParkAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkAnnotationView.swift; sourceTree = "<group>"; };
-		22D594E025A419E1003DD2D5 /* ParkAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkAnnotation.swift; sourceTree = "<group>"; };
+		22D594E525A422E4003DD2D5 /* Park.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
+		7CE57EC68FFAAFF7E1B071A6 /* Pods-NationalParkMapOverlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NationalParkMapOverlay.release.xcconfig"; path = "Target Support Files/Pods-NationalParkMapOverlay/Pods-NationalParkMapOverlay.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A8E9A3259D801800991200 /* CoreLocation.framework in Frameworks */,
+				A3A263F8E87F04C632C2464A /* Pods_NationalParkMapOverlay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +51,7 @@
 				22A8E98D259D72D600991200 /* NationalParkMapOverlay */,
 				22A8E98C259D72D600991200 /* Products */,
 				22A8E9A1259D801800991200 /* Frameworks */,
+				D3931E4EC3DCF66B6666AF76 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,11 +69,10 @@
 				22A8E98E259D72D600991200 /* NationalParkMapOverlayApp.swift */,
 				22A8E990259D72D600991200 /* ContentView.swift */,
 				22A8E99E259D7DEF00991200 /* MapView.swift */,
+				22D594E525A422E4003DD2D5 /* Park.swift */,
 				22A8E992259D72D700991200 /* Assets.xcassets */,
 				22A8E997259D72D700991200 /* Info.plist */,
 				22A8E994259D72D700991200 /* Preview Content */,
-				22D594DC25A419D1003DD2D5 /* ParkAnnotationView.swift */,
-				22D594E025A419E1003DD2D5 /* ParkAnnotation.swift */,
 			);
 			path = NationalParkMapOverlay;
 			sourceTree = "<group>";
@@ -86,8 +89,18 @@
 			isa = PBXGroup;
 			children = (
 				22A8E9A2259D801800991200 /* CoreLocation.framework */,
+				18FA71D9830846DDCC923166 /* Pods_NationalParkMapOverlay.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3931E4EC3DCF66B6666AF76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1096A3B1AD8AA023A1DF8739 /* Pods-NationalParkMapOverlay.debug.xcconfig */,
+				7CE57EC68FFAAFF7E1B071A6 /* Pods-NationalParkMapOverlay.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22A8E99A259D72D700991200 /* Build configuration list for PBXNativeTarget "NationalParkMapOverlay" */;
 			buildPhases = (
+				D7100F1E43F9D39B3DCC9993 /* [CP] Check Pods Manifest.lock */,
 				22A8E987259D72D600991200 /* Sources */,
 				22A8E988259D72D600991200 /* Frameworks */,
 				22A8E989259D72D600991200 /* Resources */,
+				5E7E0E82EA6A5719D22A0BA1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,16 +169,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E7E0E82EA6A5719D22A0BA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NationalParkMapOverlay/Pods-NationalParkMapOverlay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NationalParkMapOverlay/Pods-NationalParkMapOverlay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NationalParkMapOverlay/Pods-NationalParkMapOverlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7100F1E43F9D39B3DCC9993 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NationalParkMapOverlay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22A8E987259D72D600991200 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D594E125A419E1003DD2D5 /* ParkAnnotation.swift in Sources */,
 				22A8E991259D72D600991200 /* ContentView.swift in Sources */,
 				22A8E99F259D7DEF00991200 /* MapView.swift in Sources */,
 				22A8E98F259D72D600991200 /* NationalParkMapOverlayApp.swift in Sources */,
-				22D594DD25A419D1003DD2D5 /* ParkAnnotationView.swift in Sources */,
+				22D594E625A422E4003DD2D5 /* Park.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +344,7 @@
 		};
 		22A8E99B259D72D700991200 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1096A3B1AD8AA023A1DF8739 /* Pods-NationalParkMapOverlay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +367,7 @@
 		};
 		22A8E99C259D72D700991200 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CE57EC68FFAAFF7E1B071A6 /* Pods-NationalParkMapOverlay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
