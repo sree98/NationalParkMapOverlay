@@ -11,6 +11,10 @@
 		22A8E991259D72D600991200 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8E990259D72D600991200 /* ContentView.swift */; };
 		22A8E993259D72D700991200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A8E992259D72D700991200 /* Assets.xcassets */; };
 		22A8E996259D72D700991200 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A8E995259D72D700991200 /* Preview Assets.xcassets */; };
+		22A8E99F259D7DEF00991200 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8E99E259D7DEF00991200 /* MapView.swift */; };
+		22A8E9A3259D801800991200 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A8E9A2259D801800991200 /* CoreLocation.framework */; };
+		22D594DD25A419D1003DD2D5 /* ParkAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D594DC25A419D1003DD2D5 /* ParkAnnotationView.swift */; };
+		22D594E125A419E1003DD2D5 /* ParkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D594E025A419E1003DD2D5 /* ParkAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		22A8E992259D72D700991200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22A8E995259D72D700991200 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22A8E997259D72D700991200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A8E99E259D7DEF00991200 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		22A8E9A2259D801800991200 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		22D594DC25A419D1003DD2D5 /* ParkAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkAnnotationView.swift; sourceTree = "<group>"; };
+		22D594E025A419E1003DD2D5 /* ParkAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22A8E9A3259D801800991200 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +47,7 @@
 			children = (
 				22A8E98D259D72D600991200 /* NationalParkMapOverlay */,
 				22A8E98C259D72D600991200 /* Products */,
+				22A8E9A1259D801800991200 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,9 +64,12 @@
 			children = (
 				22A8E98E259D72D600991200 /* NationalParkMapOverlayApp.swift */,
 				22A8E990259D72D600991200 /* ContentView.swift */,
+				22A8E99E259D7DEF00991200 /* MapView.swift */,
 				22A8E992259D72D700991200 /* Assets.xcassets */,
 				22A8E997259D72D700991200 /* Info.plist */,
 				22A8E994259D72D700991200 /* Preview Content */,
+				22D594DC25A419D1003DD2D5 /* ParkAnnotationView.swift */,
+				22D594E025A419E1003DD2D5 /* ParkAnnotation.swift */,
 			);
 			path = NationalParkMapOverlay;
 			sourceTree = "<group>";
@@ -67,6 +80,14 @@
 				22A8E995259D72D700991200 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22A8E9A1259D801800991200 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22A8E9A2259D801800991200 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D594E125A419E1003DD2D5 /* ParkAnnotation.swift in Sources */,
 				22A8E991259D72D600991200 /* ContentView.swift in Sources */,
+				22A8E99F259D7DEF00991200 /* MapView.swift in Sources */,
 				22A8E98F259D72D600991200 /* NationalParkMapOverlayApp.swift in Sources */,
+				22D594DD25A419D1003DD2D5 /* ParkAnnotationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
