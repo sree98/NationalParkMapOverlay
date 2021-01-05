@@ -13,6 +13,7 @@
 		22A8E996259D72D700991200 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A8E995259D72D700991200 /* Preview Assets.xcassets */; };
 		22A8E99F259D7DEF00991200 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8E99E259D7DEF00991200 /* MapView.swift */; };
 		22A8E9A3259D801800991200 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A8E9A2259D801800991200 /* CoreLocation.framework */; };
+		22C2E01E25A4370A007C8515 /* NationalParks.json in Resources */ = {isa = PBXBuildFile; fileRef = 22C2E01D25A4370A007C8515 /* NationalParks.json */; };
 		22D594E625A422E4003DD2D5 /* Park.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D594E525A422E4003DD2D5 /* Park.swift */; };
 		A3A263F8E87F04C632C2464A /* Pods_NationalParkMapOverlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA71D9830846DDCC923166 /* Pods_NationalParkMapOverlay.framework */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,7 @@
 		22A8E997259D72D700991200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22A8E99E259D7DEF00991200 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		22A8E9A2259D801800991200 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		22C2E01D25A4370A007C8515 /* NationalParks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NationalParks.json; sourceTree = "<group>"; };
 		22D594E525A422E4003DD2D5 /* Park.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park.swift; sourceTree = "<group>"; };
 		7CE57EC68FFAAFF7E1B071A6 /* Pods-NationalParkMapOverlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NationalParkMapOverlay.release.xcconfig"; path = "Target Support Files/Pods-NationalParkMapOverlay/Pods-NationalParkMapOverlay.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +68,7 @@
 		22A8E98D259D72D600991200 /* NationalParkMapOverlay */ = {
 			isa = PBXGroup;
 			children = (
+				22C2E01D25A4370A007C8515 /* NationalParks.json */,
 				22A8E98E259D72D600991200 /* NationalParkMapOverlayApp.swift */,
 				22A8E990259D72D600991200 /* ContentView.swift */,
 				22A8E99E259D7DEF00991200 /* MapView.swift */,
@@ -164,6 +167,7 @@
 			files = (
 				22A8E996259D72D700991200 /* Preview Assets.xcassets in Resources */,
 				22A8E993259D72D700991200 /* Assets.xcassets in Resources */,
+				22C2E01E25A4370A007C8515 /* NationalParks.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
